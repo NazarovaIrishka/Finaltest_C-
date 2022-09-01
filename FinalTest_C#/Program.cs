@@ -10,3 +10,19 @@
     }
     return Array1;
 }
+
+
+string [] SelectiveArray(string[] Array)
+{
+    string[] NewArray = new string[Array.Length];
+    int count = 0;
+    for (int i = 0; i < Array.Length; i++)
+    {
+    if(Array[i].Length <= 3)
+        {
+        NewArray[count] = Array[i];
+        count++;
+        }
+    }
+    return NewArray;
+}
