@@ -26,3 +26,13 @@ string [] SelectiveArray(string[] Array)
     }
     return NewArray;
 }
+
+
+void PrintArray(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write( $"{array[i]} ");
+    }
+    Console.WriteLine();
+}
