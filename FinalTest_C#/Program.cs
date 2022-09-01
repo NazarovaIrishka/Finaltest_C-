@@ -36,3 +36,9 @@ void PrintArray(string[] array)
     }
     Console.WriteLine();
 }
+
+
+string [] MyArray = CreateAndFillArray(); 
+PrintArray(MyArray);
+string [] Array2 = SelectiveArray(MyArray);
+PrintArray(Array2);
